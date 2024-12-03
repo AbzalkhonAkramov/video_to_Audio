@@ -1,22 +1,3 @@
-# from pydub import AudioSegment
-#
-#
-# def audio_to_mp3(input_audio_path, output_audio_path):
-#     try:
-#         # Load the audio file
-#         audio = AudioSegment.from_file(input_audio_path)
-#
-#         # Export the audio as MP3
-#         audio.export(output_audio_path, format="mp3")
-#         print(f"Audio saved as {output_audio_path}")
-#     except Exception as e:
-#         print(f"Error while converting audio to MP3: {e}")
-#
-#
-# # Example usage for converting audio to MP3
-# audio_to_mp3("record_out.ogg", "output_audio.mp3")  # Replace with your audio file path
-#
-
 from moviepy.video.io.VideoFileClip import VideoFileClip
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 import os
