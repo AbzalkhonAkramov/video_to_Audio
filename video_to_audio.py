@@ -21,4 +21,4 @@ def video_to_mp3(video_path, output_path):
 
 
 # Example usage for converting video to MP3
-video_to_mp3("exa.mp4", "resultOfMP4.mp3")  # Replace with your video file path
+video_to_mp3("example.mp4", "resultOfMP4.mp3")  # Replace with your video file path

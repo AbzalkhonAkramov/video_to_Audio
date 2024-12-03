@@ -45,5 +45,5 @@ def convert_to_mp3(input_file, output_dir="output_audio"):
 
 # Example Usage
 if __name__ == "__main__":
-    input_path = "record_out.ogg"  # Replace with your audio or video file path
+    input_path = "example.ogg"  # Replace with your audio or video file path
     output_mp3 = convert_to_mp3(input_path)
